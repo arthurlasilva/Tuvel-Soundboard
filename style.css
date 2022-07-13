@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "comic sans";
+  src: url("/fonts/Qdbettercomicsansbold-511d8.ttf"); /*Trocar fonte para uma mais legível*/
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(34, 193, 195);
+  background: repeating-linear-gradient(
+    0deg,
+    rgb(113, 199, 201) 0%,
+    rgb(220, 156, 255) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "comic sans"; /*trocar fonte*/
+  font-size: large;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.botao {
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 45px;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+}
+
+.container > div {
+  cursor: pointer;
+}
