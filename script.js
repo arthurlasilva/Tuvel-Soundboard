@@ -37,10 +37,6 @@ let audios = [
     legenda: "AII MAMÃE",
   },
   {
-    caminho: "audios/AIAIAI.mp3",
-    legenda: "AI AI AI",
-  },
-  {
     caminho: "audios/danca-gatinho.mp3",
     legenda: "DANÇA GATINHO, DANÇA",
   },

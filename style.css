@@ -1,6 +1,6 @@
 @font-face {
   font-family: "comic sans";
-  src: url("/fonts/Qdbettercomicsansbold-511d8.ttf"); /*Trocar fonte para uma mais legível*/
+  src: url("/font/RobotoCondensed-Bold.ttf"); /*Trocar fonte para uma mais legível*/
 }
 
 html,
